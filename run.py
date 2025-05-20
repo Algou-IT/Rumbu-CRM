@@ -16,7 +16,7 @@ else:
 load_dotenv(env_file_path)
 
 app = create_app(
-    productions=True,
+    production=True,
     template_folder=template_folder,
     static_folder=static_folder
 )
