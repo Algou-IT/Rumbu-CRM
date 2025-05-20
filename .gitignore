@@ -1,0 +1,24 @@
+*.pyc
+app.db
+./tmp
+build
+.idea
+.env
+venv
+*.sublime*
+node_modules
+static/data
+tasks.todo
+dist
+/linux-venv
+instance
+task.todo
+server
+screenshots
+migrations
+win-venv
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
