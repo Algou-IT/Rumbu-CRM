@@ -163,6 +163,7 @@ def stores(company_id):
         if stored_user:
             reseller_role = Role.query.filter_by(name='Reseller').first()
             stored_user.role_id = reseller_role.id
+            stored_user.company_id = company_id
             db.session.commit() 
 
         store = Store(
