@@ -63,6 +63,7 @@ def login():
 
         company_id = user.company_id
         login_user(user, remember=remember_me)
+        session['company_id'] = company_id
         
         if remember_me:
             token = user.get_remember_token()
